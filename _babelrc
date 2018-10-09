@@ -1,0 +1,26 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    "transform-class-properties",
+    "babel-plugin-transform-decorators-legacy",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+         "@MCRN": "mcrn",
+         "MCScene":"./src/scene",
+         "MCUtil":"./src/util",
+         "MCComponent":"./src/component",
+         "MCConfig":"./src/config",
+         "MCImage": "./src/image",
+         "MCAction": "./src/action",
+         "MCService": "./src/service",
+         "MCCss": "./src/css",
+         "MCReducer": "./src/reducer",
+         "MCStore": "./src/store",
+         "MCRequest": "./src/service/Request",
+         "MCToast": "react-native-root-toast"
+      },
+      "extensions": [".js", ".ios.js", ".android.js"]
+    }]
+  ]
+}

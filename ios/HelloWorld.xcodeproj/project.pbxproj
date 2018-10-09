@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DD481BB5E0F64A54AC880E /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7E7B90DA5E41E7415A3B9C /* libPods-HelloWorld.a */; };
+		8815881D215F5EB600D887CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815881C215F5EB600D887CD /* AppDelegate.m */; };
+		88158825215F5EB800D887CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88158824215F5EB800D887CD /* Assets.xcassets */; };
+		88158828215F5EB800D887CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88158826215F5EB800D887CD /* LaunchScreen.storyboard */; };
+		8815882B215F5EB800D887CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815882A215F5EB800D887CD /* main.m */; };
+		8815884F215F60CB00D887CD /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88158833215F60CA00D887CD /* 2.gif */; };
+		88158850215F60CB00D887CD /* GiFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158834215F60CA00D887CD /* GiFHUD.m */; };
+		88158851215F60CB00D887CD /* CustomDevMenuModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158837215F60CB00D887CD /* CustomDevMenuModule.m */; };
+		88158852215F60CB00D887CD /* MCEnvController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158838215F60CB00D887CD /* MCEnvController.m */; };
+		88158853215F60CB00D887CD /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158839215F60CB00D887CD /* DLRadioButton.m */; };
+		88158854215F60CB00D887CD /* MCDevSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815883A215F60CB00D887CD /* MCDevSettingController.m */; };
+		88158855215F60CB00D887CD /* BundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158841215F60CB00D887CD /* BundleManager.m */; };
+		88158856215F60CB00D887CD /* ConfigModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158843215F60CB00D887CD /* ConfigModule.m */; };
+		88158857215F60CB00D887CD /* MCbridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158846215F60CB00D887CD /* MCbridge.m */; };
+		88158858215F60CB00D887CD /* BridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88158848215F60CB00D887CD /* BridgeManager.m */; };
+		88158859215F60CB00D887CD /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815884C215F60CB00D887CD /* RNUMConfigure.m */; };
+		8815885A215F60CB00D887CD /* UMAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815884D215F60CB00D887CD /* UMAnalyticsModule.m */; };
+		8815885E215F60E600D887CD /* MCRNController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8815885B215F60E600D887CD /* MCRNController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88158818215F5EB600D887CD /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8815881B215F5EB600D887CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8815881C215F5EB600D887CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88158824215F5EB800D887CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88158827215F5EB800D887CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88158829215F5EB800D887CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8815882A215F5EB800D887CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88158832215F60CA00D887CD /* GiFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiFHUD.h; sourceTree = "<group>"; };
+		88158833215F60CA00D887CD /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		88158834215F60CA00D887CD /* GiFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiFHUD.m; sourceTree = "<group>"; };
+		88158837215F60CB00D887CD /* CustomDevMenuModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDevMenuModule.m; sourceTree = "<group>"; };
+		88158838215F60CB00D887CD /* MCEnvController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEnvController.m; sourceTree = "<group>"; };
+		88158839215F60CB00D887CD /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		8815883A215F60CB00D887CD /* MCDevSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDevSettingController.m; sourceTree = "<group>"; };
+		8815883B215F60CB00D887CD /* CustomDevMenuModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDevMenuModule.h; sourceTree = "<group>"; };
+		8815883C215F60CB00D887CD /* MCEnvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEnvController.h; sourceTree = "<group>"; };
+		8815883D215F60CB00D887CD /* MCDevSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDevSettingController.h; sourceTree = "<group>"; };
+		8815883E215F60CB00D887CD /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		88158840215F60CB00D887CD /* BundleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleManager.h; sourceTree = "<group>"; };
+		88158841215F60CB00D887CD /* BundleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleManager.m; sourceTree = "<group>"; };
+		88158843215F60CB00D887CD /* ConfigModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigModule.m; sourceTree = "<group>"; };
+		88158844215F60CB00D887CD /* MCbridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCbridge.h; sourceTree = "<group>"; };
+		88158845215F60CB00D887CD /* ConfigModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigModule.h; sourceTree = "<group>"; };
+		88158846215F60CB00D887CD /* MCbridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCbridge.m; sourceTree = "<group>"; };
+		88158848215F60CB00D887CD /* BridgeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeManager.m; sourceTree = "<group>"; };
+		88158849215F60CB00D887CD /* BridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeManager.h; sourceTree = "<group>"; };
+		8815884B215F60CB00D887CD /* UMAnalyticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMAnalyticsModule.h; sourceTree = "<group>"; };
+		8815884C215F60CB00D887CD /* RNUMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUMConfigure.m; sourceTree = "<group>"; };
+		8815884D215F60CB00D887CD /* UMAnalyticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMAnalyticsModule.m; sourceTree = "<group>"; };
+		8815884E215F60CB00D887CD /* RNUMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUMConfigure.h; sourceTree = "<group>"; };
+		8815885B215F60E600D887CD /* MCRNController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRNController.m; sourceTree = "<group>"; };
+		8815885C215F60E600D887CD /* MCRNController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRNController.h; sourceTree = "<group>"; };
+		8815885D215F60E600D887CD /* MCRNConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRNConfig.h; sourceTree = "<group>"; };
+		BBB362165934F475040F8CB2 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7E7B90DA5E41E7415A3B9C /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E245560B5D002B7A3A910F94 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88158815215F5EB600D887CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DD481BB5E0F64A54AC880E /* libPods-HelloWorld.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404BB35B4995BFAB1EC2C6D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBB362165934F475040F8CB2 /* Pods-HelloWorld.debug.xcconfig */,
+				E245560B5D002B7A3A910F94 /* Pods-HelloWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D4A4AD43A8B11B5C52367CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7E7B90DA5E41E7415A3B9C /* libPods-HelloWorld.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8815880F215F5EB600D887CD = {
+			isa = PBXGroup;
+			children = (
+				8815881A215F5EB600D887CD /* HelloWorld */,
+				88158819215F5EB600D887CD /* Products */,
+				404BB35B4995BFAB1EC2C6D9 /* Pods */,
+				4D4A4AD43A8B11B5C52367CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88158819215F5EB600D887CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88158818215F5EB600D887CD /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8815881A215F5EB600D887CD /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				88158835215F60CB00D887CD /* NativeModules */,
+				88158831215F60CA00D887CD /* ViewHelper */,
+				8815881B215F5EB600D887CD /* AppDelegate.h */,
+				8815881C215F5EB600D887CD /* AppDelegate.m */,
+				8815885D215F60E600D887CD /* MCRNConfig.h */,
+				8815885C215F60E600D887CD /* MCRNController.h */,
+				8815885B215F60E600D887CD /* MCRNController.m */,
+				88158824215F5EB800D887CD /* Assets.xcassets */,
+				88158826215F5EB800D887CD /* LaunchScreen.storyboard */,
+				88158829215F5EB800D887CD /* Info.plist */,
+				8815882A215F5EB800D887CD /* main.m */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		88158831215F60CA00D887CD /* ViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				88158832215F60CA00D887CD /* GiFHUD.h */,
+				88158833215F60CA00D887CD /* 2.gif */,
+				88158834215F60CA00D887CD /* GiFHUD.m */,
+			);
+			path = ViewHelper;
+			sourceTree = "<group>";
+		};
+		88158835215F60CB00D887CD /* NativeModules */ = {
+			isa = PBXGroup;
+			children = (
+				88158836215F60CB00D887CD /* DevHelper */,
+				8815883F215F60CB00D887CD /* BundleManager */,
+				88158842215F60CB00D887CD /* ConfigModule */,
+				88158847215F60CB00D887CD /* BridgeManager */,
+				8815884A215F60CB00D887CD /* UMAnalytics */,
+			);
+			path = NativeModules;
+			sourceTree = "<group>";
+		};
+		88158836215F60CB00D887CD /* DevHelper */ = {
+			isa = PBXGroup;
+			children = (
+				88158837215F60CB00D887CD /* CustomDevMenuModule.m */,
+				88158838215F60CB00D887CD /* MCEnvController.m */,
+				88158839215F60CB00D887CD /* DLRadioButton.m */,
+				8815883A215F60CB00D887CD /* MCDevSettingController.m */,
+				8815883B215F60CB00D887CD /* CustomDevMenuModule.h */,
+				8815883C215F60CB00D887CD /* MCEnvController.h */,
+				8815883D215F60CB00D887CD /* MCDevSettingController.h */,
+				8815883E215F60CB00D887CD /* DLRadioButton.h */,
+			);
+			path = DevHelper;
+			sourceTree = "<group>";
+		};
+		8815883F215F60CB00D887CD /* BundleManager */ = {
+			isa = PBXGroup;
+			children = (
+				88158840215F60CB00D887CD /* BundleManager.h */,
+				88158841215F60CB00D887CD /* BundleManager.m */,
+			);
+			path = BundleManager;
+			sourceTree = "<group>";
+		};
+		88158842215F60CB00D887CD /* ConfigModule */ = {
+			isa = PBXGroup;
+			children = (
+				88158843215F60CB00D887CD /* ConfigModule.m */,
+				88158844215F60CB00D887CD /* MCbridge.h */,
+				88158845215F60CB00D887CD /* ConfigModule.h */,
+				88158846215F60CB00D887CD /* MCbridge.m */,
+			);
+			path = ConfigModule;
+			sourceTree = "<group>";
+		};
+		88158847215F60CB00D887CD /* BridgeManager */ = {
+			isa = PBXGroup;
+			children = (
+				88158848215F60CB00D887CD /* BridgeManager.m */,
+				88158849215F60CB00D887CD /* BridgeManager.h */,
+			);
+			path = BridgeManager;
+			sourceTree = "<group>";
+		};
+		8815884A215F60CB00D887CD /* UMAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				8815884B215F60CB00D887CD /* UMAnalyticsModule.h */,
+				8815884C215F60CB00D887CD /* RNUMConfigure.m */,
+				8815884D215F60CB00D887CD /* UMAnalyticsModule.m */,
+				8815884E215F60CB00D887CD /* RNUMConfigure.h */,
+			);
+			path = UMAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88158817215F5EB600D887CD /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8815882E215F5EB800D887CD /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				3E9F9F5483DF8A69339FD5EE /* [CP] Check Pods Manifest.lock */,
+				88158814215F5EB600D887CD /* Sources */,
+				88158815215F5EB600D887CD /* Frameworks */,
+				88158816215F5EB600D887CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 88158818215F5EB600D887CD /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88158810215F5EB600D887CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xiongcaichang;
+				TargetAttributes = {
+					88158817215F5EB600D887CD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 88158813215F5EB600D887CD /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8815880F215F5EB600D887CD;
+			productRefGroup = 88158819215F5EB600D887CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88158817215F5EB600D887CD /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88158816215F5EB600D887CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88158828215F5EB800D887CD /* LaunchScreen.storyboard in Resources */,
+				88158825215F5EB800D887CD /* Assets.xcassets in Resources */,
+				8815884F215F60CB00D887CD /* 2.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9F9F5483DF8A69339FD5EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88158814215F5EB600D887CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8815885A215F60CB00D887CD /* UMAnalyticsModule.m in Sources */,
+				8815882B215F5EB800D887CD /* main.m in Sources */,
+				88158855215F60CB00D887CD /* BundleManager.m in Sources */,
+				88158859215F60CB00D887CD /* RNUMConfigure.m in Sources */,
+				88158857215F60CB00D887CD /* MCbridge.m in Sources */,
+				8815885E215F60E600D887CD /* MCRNController.m in Sources */,
+				88158856215F60CB00D887CD /* ConfigModule.m in Sources */,
+				88158853215F60CB00D887CD /* DLRadioButton.m in Sources */,
+				88158851215F60CB00D887CD /* CustomDevMenuModule.m in Sources */,
+				88158854215F60CB00D887CD /* MCDevSettingController.m in Sources */,
+				88158850215F60CB00D887CD /* GiFHUD.m in Sources */,
+				8815881D215F5EB600D887CD /* AppDelegate.m in Sources */,
+				88158858215F60CB00D887CD /* BridgeManager.m in Sources */,
+				88158852215F60CB00D887CD /* MCEnvController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88158826215F5EB800D887CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88158827215F5EB800D887CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8815882C215F5EB800D887CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8815882D215F5EB800D887CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8815882F215F5EB800D887CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB362165934F475040F8CB2 /* Pods-HelloWorld.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXZZ5KF3LQ;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88158830215F5EB800D887CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E245560B5D002B7A3A910F94 /* Pods-HelloWorld.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXZZ5KF3LQ;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88158813215F5EB600D887CD /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8815882C215F5EB800D887CD /* Debug */,
+				8815882D215F5EB800D887CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8815882E215F5EB800D887CD /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8815882F215F5EB800D887CD /* Debug */,
+				88158830215F5EB800D887CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88158810215F5EB600D887CD /* Project object */;
+}
