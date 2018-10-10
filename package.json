@@ -20,7 +20,8 @@
     "react-native-mc-zip-archive": "^1.0.1",
     "react-native-picker": "^4.3.7",
     "react-native-scrollable-tab-view": "^0.8.0",
-    "rnx-ui": "git+https://github.com/xiongcaichang/rnx-ui.git#0.56_v0.12"
+    "rnx-ui": "git+https://github.com/xiongcaichang/rnx-ui.git#0.56_v0.12",
+     "react-native-sentry": "v0.38.3",
   },
   "jest": {
     "preset": "react-native"
