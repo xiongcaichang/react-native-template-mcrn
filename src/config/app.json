@@ -1,10 +1,8 @@
 {
   "name": "HelloWorld",
   "initialRouteName":"LaunchScene",
-  "displayName": "HelloWorld",
+  "displayName": "DemoMCRN",
   "storageExpireTime": 2592000000,
   "autoCacheModule_prd":["UserAccount"],
   "js_version": 7,
-  "min_vid": 60100001,
-  "sentry_dsn": "dsnurl"
 }

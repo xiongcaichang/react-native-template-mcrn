@@ -61,5 +61,3 @@ export default class HomeScene extends Component {
     );
   }
 }
-
-console.log(HomeScene.testabc)

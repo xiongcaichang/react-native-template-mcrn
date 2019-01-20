@@ -1,15 +1,10 @@
-import { Loading } from 'MCAction'
-import store from '@MCRN/store'
+/* eslint-disable */
+import util from 'mcrn/util'
 
-
-const show = ()=> {
-    store.dispatch(Loading.showLoading());
-}
-const hide = ()=> {
-    store.dispatch(Loading.hideLoading());
-}
+const show = util.showLoading
+const hide = util.hideLoading
 
 export default {
-    show,
-    hide
+  show,
+  hide
 }

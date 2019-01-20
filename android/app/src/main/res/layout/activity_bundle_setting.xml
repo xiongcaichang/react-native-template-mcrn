@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:title="Bundle配置"
+        app:titleTextAppearance="@style/TitleText">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/ip_ll"
+        style="@style/ItemLayout">
+
+        <TextView
+            style="@style/DesText"
+            android:inputType="numberSigned"
+            android:text="IP：" />
+
+        <EditText
+            android:id="@+id/ip_et"
+            style="@style/ConEditText"
+            android:text="127.0.0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/port_ll"
+        style="@style/ItemLayout">
+
+        <TextView
+            style="@style/DesText"
+            android:text="端口：" />
+
+        <EditText
+            android:id="@+id/port_et"
+            style="@style/ConEditText"
+            android:inputType="number"
+            android:text="8081" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/branch_ll"
+        style="@style/ItemLayout"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/DesText"
+            android:text="分支：" />
+
+        <EditText
+            android:id="@+id/branch_et"
+            style="@style/ConEditText"
+            android:text="v.react-native" />
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/ItemLayout"
+        android:gravity="center">
+
+        <Switch
+            android:id="@+id/switch_local"
+            android:checked="true"
+            style="@style/Switch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/switch_local"
+            android:layout_alignLeft="@id/switch_local"
+            android:layout_alignRight="@id/switch_local"
+            android:layout_alignTop="@id/switch_local"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="LOCAL      BETA "
+            android:textColor="@android:color/white" />
+        <!--<Switch-->
+        <!--android:id="@+id/switch_beta"-->
+        <!--style="@style/Switch"/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="BETA"/>-->
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="保存并刷新"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

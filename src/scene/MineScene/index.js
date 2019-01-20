@@ -8,7 +8,7 @@ import Header from './Component/Header'
 
 
 import { ABOUT, MINE, PRINTER, SHIELD, LG_ARROW } from 'MCImage';
-import Btn from 'rnx-ui/Btn';
+import Btn from 'mcrn-ui/Btn';
 
 @mconnect({accountData: 'UserAccount'}) @screen
 export default class MineScene extends Component {

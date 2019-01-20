@@ -2,7 +2,7 @@
  * 导航栏组件
  */
 import React, { Component } from 'react';
-import All from 'rnx-ui/All';
+import All from 'mcrn-ui/All';
 
 class Page extends Component {
   render() {

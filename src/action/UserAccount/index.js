@@ -1,4 +1,4 @@
-import { createAsyncAction } from 'redux-action-tools';
+import { createAction } from 'redux-actions';
 import loading from 'MCUtil/loading'
 import 'MCUtil/md5';
 
@@ -35,6 +35,6 @@ const testFunc = (data) => new Promise(function(resolve, reject) {
 });
 
 export default {
-  login: createAsyncAction('USER_ACCOUNT_LOGIN',loginFunc),
-  updateAccountInfo: createAsyncAction('USER_ACCOUNT_UPDATAE',testFunc),
+  login: createAction('USER_ACCOUNT_LOGIN',loginFunc),
+  updateAccountInfo: createAction('USER_ACCOUNT_UPDATAE',testFunc),
 };

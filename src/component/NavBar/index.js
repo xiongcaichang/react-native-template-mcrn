@@ -8,7 +8,7 @@ import {
   Image
 } from 'react-native';
 import { topHeight } from '@MCRN/css';
-import RnxNavBar from 'rnx-ui/NavBar';
+import RnxNavBar from 'mcrn-ui/NavBar';
 import navigation from '@MCRN/navigation'
 
 const styles = StyleSheet.create({
